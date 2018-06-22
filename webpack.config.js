@@ -11,7 +11,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist')
   },
   module: {
-    loaders: [{
+    rules: [{
       test: /\.(js)$/,
       include: path.resolve(__dirname, 'src'),
       loader: 'babel-loader',
